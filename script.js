@@ -1,6 +1,6 @@
 async function getMessage(){
 
-const response=await fetch("/api/hello")
+const response=await fetch("/api")
 
 const data=await response.json()
 
